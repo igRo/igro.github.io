@@ -33,13 +33,12 @@ header {
 
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 0 20px;
 }
 
-.about-me,
-.social-links {
-    margin: 50px;
+.about-me {
+    margin-bottom: 50px;
 }
 
 .social-icons {
