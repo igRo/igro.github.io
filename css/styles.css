@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 30px 10px 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.header-info {
+    text-align: center;
+}
+
+.header-info h1 {
+    margin: 0 0 10px;
+}
+
+.header-info p {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about-me,
+.social-links {
+    margin: 50px;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    font-size: 0;
+    margin: 0 8px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
